@@ -1,0 +1,163 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat-Bold';
+    font-size: 300%;
+}
+
+h3{
+    font-family: 'Montserrat-Bold';
+}
+
+p{
+    color: #8f8f8f
+}
+
+.container-fluid{
+    padding: 3% 15% 7%; 
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+/* Nav Bar  */
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+}
+
+.navbar-nav .nav-link{
+    margin:1rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+.title-image{
+    transform:rotate(25deg);
+    position: absolute;
+    width: 40%;
+    right: 50%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+ 
+.icon{
+    margin: 1rem;
+    color:#ff4c68
+}
+
+.icon:hover{
+    color: #8f8f8f;
+}
+
+
+/* Testimonial Section */
+
+#testimonials{
+    padding: 7% 15 0%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.press-logo{
+    width: 40%;
+    padding:3% 10%;
+    display:inline-block;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing Section  */
+
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+
+/* CTA Section  */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7%;
+    text-align: center;
+}   
+
+.cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: xx-large;
+}
+
+
+/* Footer Section */
+
+#footer{
+    padding: 3% 3%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-icons{
+    margin: 15px 20px;
+    color: black;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    .press-logo{
+        display: inline;
+        width: 45%;
+        padding:3% 10%;
+    }
+    .navbar-nav .nav-link{
+        margin:0.5rem;
+        font-size:1.2rem;
+        font-family: 'Montserrat';
+        color: #fff;
+        text-align: right;
+    }
+}
+
+
